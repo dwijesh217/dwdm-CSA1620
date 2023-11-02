@@ -1,0 +1,13 @@
+> data <- c(200, 300, 400, 600, 1000)
+> mean <- mean(data)
+> sd <- sd(data)
+> min <- min(data)
+> max <- max(data)
+> zscore <- (data - mean)/sd
+> min_max_normalized_data <- (data-min)/(max-min)
+> cat(zscore,"\n")
+-0.9486833 -0.6324555 -0.3162278 0.3162278 1.581139 
+> cat("\n",min_max_normalized_data)
+
+ 0 0.125 0.25 0.5 1
+> 
